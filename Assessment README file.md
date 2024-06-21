@@ -1,3 +1,33 @@
+ETH PROOF: Beginner EVM Course Assessment
+
+The ETH PROOF: Beginner EVM Course by Metacrafters is a detailed introduction to Web3.0 and Solidity, the language for creating smart contracts on the Ethereum blockchain. The course teaches key ideas about decentralized applications, blockchain technology, and the Ethereum Virtual Machine (EVM). Through practical exercises and projects, participants learn how to create, deploy, and use smart contracts. The goal is to provide beginners with the basic skills needed to understand and contribute to the growing Web3 world.
+Description
+The final test for the ETH PROOF: Beginner EVM Course requires creating a Solidity smart contract that works like a basic cryptocurrency token. This test checks how well you understand and can use the key Solidity concepts taught in the course. Here are the tasks you need to complete for the assessment:
+Requirements
+Public Variables: Create public variables to store the token details: Token Name, Token Abbreviation, and Total Supply.
+Address Balances Mapping: Implement a mapping to track the balances of addresses (address => uint).
+Mint Function: Develop a mint function that accepts an address and a value. This function increases the total supply by the given value and credits the specified address with the same amount.
+Burn Function: Create a burn function that takes an address and a value. This function decreases the total supply by the specified value and deducts the same amount from the address's balance.
+Conditional Checks in Burn Function: Ensure the burn function includes conditionals to check that the sender's balance is sufficient to burn the requested amount of tokens.
+Getting Started
+Installing
+We used Remix IDE to compile and run our code.
+
+Executing Program
+To execute our program, you need to copy the code and paste it into Remix. After pasting it, you need to hit the Compile Button and compile the code. Next, we will deploy and run transactions.
+
+How to Run the Program
+To execute our program, you need to copy the code and paste it into Remix. After pasting it, you need to hit the Compile Button and compile the code. Next, we will deploy and run transactions.
+
+Author
+Lavisha
+
+Contact Information
+Lavisha: lavishab.0096@gmail.com
+
+License
+This project is licensed under the Metacrafters.
+
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
